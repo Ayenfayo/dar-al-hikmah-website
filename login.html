@@ -3,26 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dar Al-Hikmah - Home</title>
+  <title>Student Login</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>دار الحكمة لتحفيظ القرآن والدراسات الإسلامية</h1>
+    <h1>Student Login</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="courses.html">Courses</a>
       <a href="contact.html">Contact</a>
-      <a href="login.html">Student Login</a>
       <a href="application.html">New Application</a>
     </nav>
   </header>
   <main>
-    <section>
-      <h2>Welcome to Dar Al-Hikmah</h2>
-      <p>A traditional Islamic school dedicated to Quran memorization and Islamic studies.</p>
-    </section>
+    <form class="form-box">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Login</button>
+    </form>
   </main>
   <footer>
     <p>&copy; 2025 Dar Al-Hikmah</p>
